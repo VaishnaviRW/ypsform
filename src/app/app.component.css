@@ -1,0 +1,22 @@
+
+.page-container {
+    padding: 20px;
+  }
+  
+  .page-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .add-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #1976d2;
+    cursor: pointer;
+  }
+  

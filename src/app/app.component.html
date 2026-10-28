@@ -1,0 +1,19 @@
+
+<app-header></app-header>
+
+<div class="page-container">
+
+  <div class="page-heading">
+    <h2>Student Management</h2>
+
+    
+  </div>
+
+  <app-add-student
+    *ngIf="showForm"
+    (studentAdded)="addStudent($event)"
+  ></app-add-student>
+
+
+
+</div>
